@@ -1,0 +1,8 @@
+#greeting {
+    margin-top: 30px;
+    font-size: 73px;
+    color: white;
+    opacity: 0.8;
+    font-family: 'Tmon';
+    text-shadow: 1px 3px 0 #969696, 1px 7px 5px #aba8a8;
+}

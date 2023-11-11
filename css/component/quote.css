@@ -1,0 +1,39 @@
+#quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 70px;
+
+  }
+  
+  #quote span:first-child {
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 23px -3px 3px rgba(206,89,55,0);
+   
+   
+  }
+  #quote span:last-child {
+    font-size: 15px;
+       opacity: 0.7;
+  }
+
+.appear {
+
+    animation: appearTimestamp 1s ease-in-out;
+
+}
+
+
+
+  @keyframes appearTimestamp {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}

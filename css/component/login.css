@@ -1,0 +1,49 @@
+
+
+
+#login-form input:first-child{
+    width: 470px;
+    height: 50px;
+    padding: 10px;
+    border:none;
+    outline: none;
+    background: none;
+    margin-bottom: 10px;
+    font-size: 37px;
+    text-align: center;
+    color: yellow;
+    font-family: 'Tmon';
+    text-shadow: #474747 3px 5px 2px;
+    font-weight: 30;
+   
+}
+
+#login-form input:first-child:focus{
+    margin-top: 3px;
+    transition: 0.2s ease-in-out;
+    border-bottom: 3px dotted yellow;
+
+}
+
+    
+
+#login-form input::placeholder {
+    color: yellow;
+    font-weight: 600;
+    padding: 5px;
+    text-shadow: #474747 3px 5px 2px;
+    
+
+ }
+
+ #login-btn {
+    background-color: #9abf7f;
+    border: none;
+    color: white;
+    padding: 5px 13px;
+    font-size: 15px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 0px #87a86f;
+
+
+ }
